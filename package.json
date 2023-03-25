@@ -1,14 +1,49 @@
 {
   "name": "electron-chatgpt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tray app for ChatGPT",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^23.2.0"
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "",
+    "productName": "Electron ChatGPT",
+    "files": [
+      "scripts/*",
+      "icons/*",
+      "main.js"
+    ],
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "icons/icon.icns"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "icons/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm",
+        "tar.gz"
+      ],
+      "icon": "icons/icon.png"
+    }
   }
 }
+
