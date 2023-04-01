@@ -8,8 +8,12 @@
 
 ![file](https://oreo-image-bed-1310232028.cos.ap-shanghai.myqcloud.com/image/file.gif)
 
-当前版本为v0.1.1，目前只支持Mac端使用，正在开发Windows端。
+当前版本为v0.2.0，目前支持Mac端（Apple Silicon/intel芯片）、Windows端
 
 ## 📦 Download
 
-[Electron-ChatGPT-0.1.1-arm64.dmg](https://github.com/Lee8150951/Electron-ChatGPT/releases/download/Latest/Electron-ChatGPT-0.1.1-arm64.dmg)
+- [Electron.ChatGPT-0.2.0-arm64.dmg](https://github.com/Lee8150951/Electron-ChatGPT/releases/download/untagged-8a03a20517097404671a/Electron.ChatGPT-0.2.0-arm64.dmg)
+
+- [Electron-ChatGPT-0.2.0-intel.dmg](https://github.com/Lee8150951/Electron-ChatGPT/releases/download/untagged-8a03a20517097404671a/Electron-ChatGPT-0.2.0-intel.dmg)
+
+- [Electron-ChatGPT-0.2.0-win.exe](https://github.com/Lee8150951/Electron-ChatGPT/releases/download/untagged-8a03a20517097404671a/Electron-ChatGPT-0.2.0-win.exe)
