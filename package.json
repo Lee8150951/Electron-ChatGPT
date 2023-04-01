@@ -1,6 +1,6 @@
 {
   "name": "electron-chatgpt",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Tray app for ChatGPT",
   "main": "main.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "files": [
       "scripts/*",
       "icons/*",
+      "src/*",
       "main.js"
     ],
     "mac": {
@@ -46,4 +47,3 @@
     }
   }
 }
-
