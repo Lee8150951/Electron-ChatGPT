@@ -47,9 +47,7 @@ const MacOS = (app) => {
         const webContents = win.webContents;
         // 加载完成
         webContents.on('did-finish-load', () => {
-          // 引入外部文件js传入executeJavaScript
-          const codeString = String(fs.readFileSync(root + '/scripts/web.js', 'utf8'));
-          win.webContents.executeJavaScript(codeString).then();
+          window.location = '#/setting';
         });
       });
 
@@ -75,7 +73,7 @@ const MacOS = (app) => {
 
   /* 托盘 */
   const createTray = () => {
-    tray = new Tray(root + '/icons/menuIcon_white.png');
+    tray = new Tray(root + '/icons/menuIcon_whiteTemplate.png');
 
     const contextMenu = Menu.buildFromTemplate(menuTemplate);
 
